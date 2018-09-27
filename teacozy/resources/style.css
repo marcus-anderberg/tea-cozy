@@ -109,7 +109,7 @@ header nav ul li {
 
 .location {
     padding: 10px;
-    background: black
+    background: black;
     opacity: 1;
     color: seashell;
     flex-basis: 300px;
