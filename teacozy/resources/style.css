@@ -2,7 +2,7 @@ hmtl, body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    background: #000;
+    background: black;
     opacity: .9;
     text-align: center;
 
@@ -20,10 +20,10 @@ body {
     align-items: center;
     width: 100%;
     padding: 0;
-    height: 69px;
+    height: 70px;
     position: fixed;
     z-index: 1;
-    background: #000;
+   
 
 }
 
@@ -57,7 +57,7 @@ header nav ul li {
 
 .center-text {
     width: 100%;
-    background: #000;
+    background: black;
     align-items: center;
 
 }
@@ -109,9 +109,9 @@ header nav ul li {
 
 .location {
     padding: 10px;
-    background: #000;
+    background: black
     opacity: 1;
-    color: #seashell;
+    color: seashell;
     flex-basis: 300px;
     margin: 0 20px;
 }
@@ -138,7 +138,7 @@ header nav ul li {
 footer {
     position: relative;
     opacity: 1;
-    background: #black;
+    background: black;
     bottom: 0;
     text-align: left;
     min-height: 40px;
@@ -147,7 +147,7 @@ footer {
 
 footer h4 {
     margin-left: 30px;
-    color: #seashell;
+    color: seashell;
     font-size: 20px;
     letter-spacing: 0.5px;
 }
