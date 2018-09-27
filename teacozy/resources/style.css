@@ -1,0 +1,153 @@
+hmtl, body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background: #000;
+    opacity: .9;
+    text-align: center;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+#header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    height: 69px;
+    position: fixed;
+    z-index: 1;
+    background: #000;
+
+}
+
+header img {
+    height: 50px;
+}
+
+
+
+header nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    font-weight: 600;
+    position: relative;
+    color: seashell;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.center {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: url("pictures/mission.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-text {
+    width: 100%;
+    background: #000;
+    align-items: center;
+
+}
+
+
+.tea-month {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.products {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+
+.information {
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+    background: url(pictures/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.locations {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    background: #000;
+    opacity: 1;
+    color: #seashell;
+    flex-basis: 300px;
+    margin: 0 20px;
+}
+
+.location h2 {
+    font-weight: 800;
+}
+
+.contact {
+    height: 200px;
+}
+
+.contact h2 a{
+    font-weight: 700;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 3rem;
+    margin: 0;
+    text-decoration: none;
+    margin-top: 5px;
+
+}
+
+footer {
+    position: relative;
+    opacity: 1;
+    background: #black;
+    bottom: 0;
+    text-align: left;
+    min-height: 40px;
+
+}
+
+footer h4 {
+    margin-left: 30px;
+    color: #seashell;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
