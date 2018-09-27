@@ -2,7 +2,7 @@ hmtl, body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    background: black;
+    background-color: black;
     opacity: .9;
     text-align: center;
 
@@ -23,12 +23,15 @@ body {
     height: 70px;
     position: fixed;
     z-index: 1;
-   
+    background-color: black;
+
+
 
 }
 
 header img {
     height: 50px;
+
 }
 
 
@@ -41,6 +44,7 @@ header nav ul li {
     color: seashell;
     text-decoration: underline;
     margin-right: 10px;
+
 }
 
 .center {
